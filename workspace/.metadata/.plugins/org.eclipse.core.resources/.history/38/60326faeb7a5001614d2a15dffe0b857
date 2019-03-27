@@ -1,0 +1,7 @@
+'''
+Created on 08 Nov 2016
+
+@author: mark
+'''
+s = 'name,surname,age'
+print s.split(',')

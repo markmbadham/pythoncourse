@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+
+def greeter(name="",surname=""):
+    return  "hello %s %s" % (name, surname)
+
+
+'''
+print greeter()
+print greeter("fred")
+o
+print greeter("fred","basset")
+'''
+
+def tree(n):
+    for i in range(1,n+1):
+        print ('* '*i).center(n*2)
+
+import sys
+#tree(int(sys.argv[1]))
+#tree(10)
+def interest(principle,rate,nper):
+    return principle*(1+rate)**nper
+print interest(1000,0.01,36)
+print interest(1000,0.01,36)
+
+

@@ -1,0 +1,33 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mark/Documents/course/python/Aptana Studio 3 Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/python class/com.python.pydev.analysis/v2_indexcache
+NeClass|1503589924000000000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/python class/NeClass.py
+dictionary|1503589924000000000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/python class/dictionary.py
+accounts|1503516574000000000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/python class/accounts.py
+randcount|1503589924000000000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/python class/randcount.py
+func_prog|1503589924000000000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/python class/func_prog.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+5=MyClass
+3=NeClass
+4=dictionary
+1=randcount
+2=func_prog
+-- END DICTIONARY
+-- START TREE 1
+9
+cou|2|count2!11@count!11@
+l|1|l!19@
+myc|1|MyClass!25@
+per|1|person_dict!35@
+rnd|1|rnd!11@
+s2|1|s2!35@
+sq|1|sq!35@
+squ|1|square!34@
+tes|1|test_scope!34@
+-- END TREE
+-- START TREE 2
+1
+__i|1|__init__!5&26@
+-- END TREE

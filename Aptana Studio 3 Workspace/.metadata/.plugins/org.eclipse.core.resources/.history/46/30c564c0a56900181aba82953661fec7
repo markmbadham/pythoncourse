@@ -1,0 +1,32 @@
+'''
+Created on 6 Jun 2018
+
+@author: mark
+'''
+
+import sys
+score = 0
+from random import randint, shuffle
+try:
+    name, number, min_table, max_table = sys.argv
+except ValueError:
+    number, min_table, max_table = 10, 2, 6 
+
+test_numbers = range(min_table, max_table + 1)
+multipliers = range(2, 13)
+shuffle(test_numbers)
+
+print('''Hi Rachel, welcome to your times table practice. Answer the following sums and see your score at the end, 
+        I will tell Daddy what you got.''')
+for no in test_numbers:
+    shuffle(multipliers)
+    for mul in multipliers:
+        answer = raw_input("%d x %d = " % (no, mul))
+        if int(answer) == no * mul:
+            print("YES, well done!")
+            score += 1
+            print("your score is %d" % score)
+        else:
+            print("Ahh! Bad luck.\n The answer is %d" % (mul * no))
+
+print("Your total score %d" % score)             

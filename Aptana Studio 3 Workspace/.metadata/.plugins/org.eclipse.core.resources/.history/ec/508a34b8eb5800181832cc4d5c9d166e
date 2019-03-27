@@ -1,0 +1,15 @@
+'''
+Created on 16 May 2018
+
+@author: mark
+'''
+import os
+
+def readfile(dirname):
+    print dirname
+    if os.path.isdir(dirname):
+        for filename in os.listdir(dirname):
+            print filename
+
+if __name__ == '__main__':
+    readfile('.')

@@ -1,0 +1,14 @@
+INSTUPuserdb
+/home/mark/Documents/course/python/workspace/py3cours/userdb.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&2|7|2|1&&2|8|2|1&&2|9|2|1&&2|10|2|1&&3|11|2|0
+cur=6
+userdb=2
+con=4
+addUser=9
+query=7
+UserDB=1
+setup=8
+UserDB.__init__=5
+showUsers=10
+__init__=3
+users=11

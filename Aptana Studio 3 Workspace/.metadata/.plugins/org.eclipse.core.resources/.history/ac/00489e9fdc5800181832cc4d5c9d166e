@@ -1,0 +1,16 @@
+'''
+Created on 16 May 2018
+
+@author: mark
+'''
+try:
+    #a
+    #1/0
+except ZeroDivisionError:
+    print "cannot div bt 0"
+except NameError:
+    print "name not defined"
+else:
+    print "no exception"
+finally:
+    print "we do this no matter what"

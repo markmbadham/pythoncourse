@@ -1,0 +1,53 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mark/Documents/course/python/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/advcourse/com.python.pydev.analysis/v2_indexcache
+asyc_sock_coro2|1495788625807521000|/home/mark/Documents/course/python/workspace/advcourse/asyc_sock_coro2.py
+descriptors|1493701602927125000|/home/mark/Documents/course/python/workspace/advcourse/descriptors.py
+async_sock_coro|1495737609304471000|/home/mark/Documents/course/python/workspace/advcourse/async_sock_coro.py
+mixins|1495647286977563000|/home/mark/Documents/course/python/workspace/advcourse/mixins.py
+async_sock1|1495371934255337000|/home/mark/Documents/course/python/workspace/advcourse/async_sock1.py
+async_sim|1495733311090281000|/home/mark/Documents/course/python/workspace/advcourse/async_sim.py
+DICTS|1495387563319709000|/home/mark/Documents/course/python/workspace/advcourse/DICTS.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+9=Desc.__set__
+2=descriptors
+4=asyc_sock_coro2
+6=Desc
+5=async_sock_coro
+8=Desc.__init__
+1=async_sock1
+3=async_sim
+7=TestDesc
+-- END DICTIONARY
+-- START TREE 1
+18
+add|1|add_task!10@
+c|1|c!19@
+cha|1|chars_gen!27@
+con|2|connect_coro!34@connect_coro!42@
+cor|4|coro2!35@coro1!43@coro1!35@coro2!43@
+des|1|Desc!17@
+fro|1|From!34@
+loo|2|loop_chars!26@loop_nos!26@
+nos|1|nos_gen!27@
+pfu|1|pfunc!10@
+rec|1|recv_callback!11@
+rli|1|rlist!11@
+run|1|RUN!11@
+sen|1|send_callback!11@
+soc|1|sock!11@
+tes|1|TestDesc!17@
+wli|1|wlist!11@
+xli|1|xlist!11@
+-- END TREE
+-- START TREE 2
+6
+__g|1|__get__!6&18@
+__i|1|__init__!6&18@
+__s|1|__set__!6&18@
+a|1|a!7&19@
+b|1|b!7&19@
+x|2|x!8&19@x!9&19@
+-- END TREE

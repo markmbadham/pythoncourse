@@ -1,0 +1,11 @@
+'''
+Created on 08 Nov 2016
+
+@author: mark
+'''
+def test(): pass
+
+
+a = test()
+
+print a

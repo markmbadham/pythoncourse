@@ -1,0 +1,37 @@
+'''
+Created on 11 Jun 2014
+
+@author: mark
+'''
+import os
+
+def lister(path,indent=0):
+    '''lister
+       lists a directory recursively
+       with an output similar to ls
+       '''
+    if os.path.isdir(path):
+        os.chdir(path)
+        for file in os.listdir('.'):
+            print '   '*indent,file
+            lister(file,indent+1)
+        os.chdir('..')
+
+def lister2(path):
+    '''lister2
+    recusive directory lister with an output sililar to find'''
+    
+    if os.path.isdir(path):
+        abspath = os.path.abspath(path)
+        for file in os.listdir(abspath):
+            absfile = abspath+os.sep+file
+            print absfile
+            lister2(absfile)
+        
+def readfile(filename):
+    for line in open(filename):
+        print line,
+
+
+if __name__ == "__main__":
+    readfile('/home/mark/Documents/course/python/config.text')

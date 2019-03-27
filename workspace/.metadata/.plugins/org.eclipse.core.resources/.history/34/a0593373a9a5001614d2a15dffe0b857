@@ -1,0 +1,7 @@
+'''
+Created on 08 Nov 2016
+
+@author: mark
+'''
+for x in 'abcd': 
+    print x

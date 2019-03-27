@@ -1,0 +1,35 @@
+'''
+Created on 02 May 2017
+
+@author: mark
+'''
+import socket
+import select
+
+RUN = True
+rlist = []
+wlist = []
+xlist = []
+
+sock = socket.socket()
+sock.connect(('ledge.co.za',80))
+sock.setblocking(0)
+rlist.append(sock.fileno())
+wlist.append(sock.fileno())
+xlist.append(sock.fileno())
+SOCKS = {sock.fileno():sock}
+print SOCKS
+
+def send(fno,data):
+    SOCKS[fno].send(data)
+
+while RUN:
+    (orlist, owlist, oxlist) = select.select(rlist, wlist, xlist)
+    print owlist
+    for fno in owlist: 
+        print owlist
+        send(fno,"GET HTTP/1.0 \n\n\n")
+    for fno in orlist:
+        print SOCKS[fno].recv(8192)
+        RUN = False
+ 

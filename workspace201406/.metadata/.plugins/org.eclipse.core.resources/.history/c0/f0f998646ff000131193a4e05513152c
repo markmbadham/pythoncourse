@@ -1,0 +1,28 @@
+'''
+Created on 10 Jun 2014
+
+@author: mark
+'''
+x = 5
+
+def make_double(x):
+    x+=x
+    print x
+
+def fact(x):
+    result = 1
+    for n in range(1,x+1):
+        result *= n
+        return result 
+
+def factr(x):
+    return 1 if x<=1 else x * factr(x-1)
+
+def sum(*args):
+    result = 0
+    for arg in args: result += arg # result = result + arg
+    return result
+
+if __name__ == "__main__":
+    make_double(x)
+    print x

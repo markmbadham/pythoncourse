@@ -1,0 +1,14 @@
+MODULES_MANAGER_V2
+SocketServer|/home/mark/course/python/workspace201406/ClassExamples/SocketServer.py
+accounts|/home/mark/course/python/workspace201406/ClassExamples/accounts.py
+dbform|/home/mark/course/python/workspace201406/ClassExamples/dbform.py
+emails|/home/mark/course/python/workspace201406/ClassExamples/emails.py
+fileIO|/home/mark/course/python/workspace201406/ClassExamples/fileIO.py
+filereader|/home/mark/course/python/workspace201406/ClassExamples/filereader.py
+func|/home/mark/course/python/workspace201406/ClassExamples/func.py
+gui|/home/mark/course/python/workspace201406/ClassExamples/gui.py
+gui1|/home/mark/course/python/workspace201406/ClassExamples/gui1.py
+gui2|/home/mark/course/python/workspace201406/ClassExamples/gui2.py
+person|/home/mark/course/python/workspace201406/ClassExamples/person.py
+userdb|/home/mark/course/python/workspace201406/ClassExamples/userdb.py
+userdb1|/home/mark/course/python/workspace201406/ClassExamples/userdb1.py

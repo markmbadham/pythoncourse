@@ -1,0 +1,6 @@
+firstname = input('fisrtname: ')
+lastname = input('lastname: ')
+domain = input('domain: ')
+#email = '{}{}@{}'.format( lastname.lower(), firstname[0].lower(), domain.lower())
+email = lastname.lower() + firstname[0].lower() + '@' + domain.lower()
+print(email)

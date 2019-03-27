@@ -1,0 +1,10 @@
+#! /usr/bin/env python
+
+try :
+    print a
+    1/0
+
+except ZeroDivisionError:
+    print "can't devide by zero"
+except NameError:
+    print "name not defined"

@@ -1,0 +1,13 @@
+'''
+Created on 16 May 2018
+
+@author: mark
+'''
+import Tkinter as tk
+
+win = tk.Tk()
+button = tk.Button(text='press')
+button.pack()
+button2 = tk.Button(text='push')
+button2.pack()
+win.mainloop()

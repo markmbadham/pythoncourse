@@ -1,0 +1,17 @@
+'''
+Created on 11 Jun 2014
+
+@author: mark
+'''
+import os
+
+def lister(path,indent=0):
+    if os.path.isdir(path):
+        os.chdir(path)
+        for file in os.listdir('.'):
+            print '   '*indent,file
+            lister(file,indent+1)
+        os.chdir('..')
+
+if __name__ == "__main__":
+    lister('/home/mark/Documents/course')

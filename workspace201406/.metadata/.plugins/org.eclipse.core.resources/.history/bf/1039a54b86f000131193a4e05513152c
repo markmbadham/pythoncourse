@@ -1,0 +1,40 @@
+'''
+Created on 10 Jun 2014
+
+@author: mark
+'''
+
+class Account(object):
+    '''
+    classdocs
+    '''
+    last_accno = 0
+    types = ("ASSET","LIABILITY","EQUITY","INCOME","EXPENCE")
+    _perm_accounts = types[:3]
+    _credit_accounts = types[1:4]
+    _debit_accounts = types[0] +types[4]
+    
+    def __init__(self):
+        self.balance = 0
+        Account.last_accno += 1
+        self.accno  = Account.last_accno
+        self.type = Account.types(0)
+        
+    def debit(self,amount):
+        self.balance += amount if self.type in Account._debit_accounts else -amount
+        
+    def credit(self,amount):
+        self.balance += amount if self.type in Account._credit_accounts else -amount
+        
+if __name__ == "__main__":
+    check = Account()
+    card = Account()
+    print card.balance
+    check.balance = 100
+    check.debit(5)
+    print check.balance
+    card.debit(50)
+    print card.balance
+    card.debit(10) #Account.debit(card,10)
+    print card.balance
+    print Account.__dict__

@@ -1,0 +1,15 @@
+'''
+Created on 6 Jun 2018
+
+@author: mark
+'''
+
+import sys
+from random import randint, shuffle
+try:
+    name, number, min_table, max_table = sys.argv
+except ValueError:
+    number, min_table, max_table = 10, 2, 6 
+
+test_numbers = shuffle(range(min_table, max_table + 1))
+print(test_numbers)

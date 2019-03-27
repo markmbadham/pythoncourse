@@ -1,0 +1,25 @@
+'''
+Created on 15 May 2018
+
+@author: mark
+'''
+def greeter(name, surname=''):
+    'greeter function'
+    return 'hello {} {}'.format(name, surname)
+    
+def square(x, y=2):
+    return x ** y
+
+def tree(n=5):
+    out = []
+    for i in range(1,n+1):
+        out.append(('* '*i).center(n*2))
+    return '\n'.join(out)
+
+def factorial(n):
+    out = 1
+    for i in range(1,n+1):
+        out *= i
+    return i
+
+print(factorial(5))

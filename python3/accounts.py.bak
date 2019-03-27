@@ -1,0 +1,19 @@
+class Accounts(object):
+     total_accounts = 0
+     def __init__(self):
+         self.balance=0
+         Accounts.total_accounts+=1
+
+     def credit(self, amount):
+         self.balance += amount
+
+     def debit(self, amount):
+         self.balance -= amount
+
+if __name__ == "__main__":
+    current = Accounts()
+    credi_card = Accounts()
+    #current.balance = 0
+    current.credit(500)
+    Accounts.credit(current,500)
+    print current.balance

@@ -1,0 +1,21 @@
+'''
+Created on 10 Jun 2014
+
+@author: mark
+'''
+
+class Account(object):
+    '''
+    classdocs
+    '''
+    accno = 0
+    type = "ASSET"
+    
+    def debit(self,amount):
+        self.balance = self.__dict__.get('balance') - amount
+        
+if __name__ == "__main__":
+    check = Account()
+    card = Account()
+    check.balance = 100
+    check.debit(5)

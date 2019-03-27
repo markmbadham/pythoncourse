@@ -1,0 +1,33 @@
+'''
+Created on 23 Sep 2016
+
+@author: mark
+'''
+import sqlite3 as db
+
+conn = db.connect('users.db')
+
+cur = conn.cursor()
+
+sql = '''
+    CREATE TABLE users(
+    id INT PRIMARY KEY,
+    username VARCHAR(64),
+    password VARCHAR(64))
+    '''
+#cur.execute(sql)
+
+username = 'fred'
+password = '1234'
+id = 1
+sql = '''
+    INSERT INTO users
+    VALUES (?, ?, ?)
+    '''
+#cur.executemany(sql,[(id,username,password)])
+#conn.commit()
+sql = 'SELECT * FROM users'
+cur.execute(sql)
+print cur.fetchall()
+
+

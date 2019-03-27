@@ -1,0 +1,160 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mark/Documents/course/python/Aptana Studio 3 Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/pythonSKA/com.python.pydev.analysis/v2_indexcache
+userdb|1526636984874812000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/userdb.py
+loops.__init__|1526305338639417000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/loops/__init__.py
+functions|1526637692531834000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/functions.py
+SocketServer|1527274617968491000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/SocketServer.py
+classes|1526384150898361000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/classes.py
+socketio|1526564654695773000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/socketio.py
+readingfiles|1526472191830563000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/readingfiles.py
+handle_exceptions|1526457316985305000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/handle_exceptions.py
+form_adder|1526549839397613000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/form_adder.py
+cars|1526389978009982000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/cars.py
+form|1526549005736767000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/form.py
+person|1526391965783615000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/person.py
+xmlstuff|1526553368707793000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/xmlstuff.py
+config|1526475536069537000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/config.py
+loops.tree|1526305490657468000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/loops/tree.py
+gui01|1526545213843800000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/gui01.py
+-- END DISKCACHE
+-- START DICTIONARY
+44
+32=AlbumHandler.startElement
+27=Person.__init__
+22=C
+2=functions
+16=Server
+23=Form
+38=Car.turn
+20=Config
+1=classes
+31=UserDb.__init__
+9=form_adder
+25=SportsCar
+39=Employee.__init__
+43=SportsCar.__init__
+3=xmlstuff
+15=GUI1
+35=GUI1.__init__
+37=Car.__init__
+17=Worker
+21=UserDb
+26=FormAdder.setup
+42=Worker.__init__
+11=loops.tree
+8=gui01
+36=Config.__init__
+14=userdb
+41=Form.setup
+33=Config.read
+13=SocketServer
+30=AlbumHandler
+6=socketio
+28=AlbumHandler.startDocument
+29=FormAdder
+12=readingfiles
+44=C.__init__
+4=cars
+40=AlbumHandler.characters
+19=Employee
+10=form
+24=Car
+34=Form.__init__
+7=person
+5=config
+18=Person
+-- END DICTIONARY
+-- START TREE 1
+43
+C|1|C!9@
+_te|1|_test!18@
+add|0|
+alb|1|AlbumHandler!25@
+avg|1|avg!18@
+car|1|Car!33@
+con|2|Config!41@config!43@
+cre|0|
+cub|1|cube!18@
+cur|0|
+dat|1|data!51@
+emp|1|Employee!57@
+ent|0|
+fac|4|factorial1!18@factorialr!18@factorial!18@factorialr1!18@
+fil|2|FILENAME!43@FILENAME!67@
+for|2|FormAdder!73@Form!81@
+fre|1|fred!59@
+get|3|get_num!18@get_int!18@get_float!18@
+gre|1|greeter!18@
+gui|1|GUI1!65@
+i|0|
+lab|0|
+lin|0|
+mak|1|make_double!18@
+my_|3|my_car!35@my_sum!18@my_sum1!18@
+n|1|n!91@
+o|1|o!11@
+o2|1|o2!11@
+per|1|Person!57@
+rea|4|readfile2!98@read_config1!98@read_config!98@readfile!98@
+req|0|
+row|0|
+ser|1|Server!105@
+sho|2|show_car!34@show_args!18@
+soc|1|sock!51@
+spo|1|SportsCar!33@
+sql|0|
+squ|1|square!18@
+tre|1|tree!18@
+use|1|UserDb!113@
+win|1|win!67@
+wor|1|Worker!105@
+you|1|your_car!35@
+-- END TREE
+-- START TREE 2
+44
+__i|11|__init__!15&66@__init__!16&106@__init__!17&106@__init__!18&58@__init__!19&58@__init__!20&42@__init__!21&114@__init__!22&10@__init__!23&82@__init__!24&34@__init__!25&34@
+__r|1|__repr__!18&58@
+__s|1|__str__!18&58@
+a|1|a!22&11@
+acc|1|accelerate!24&34@
+add|3|add_button!26&75@add_users!21&114@add_rows!23&82@
+age|1|age!27&59@
+art|1|artists!28&27@
+btn|2|btn_command!29&74@btn_command!23&82@
+but|2|button_write!15&66@button_open!15&66@
+cha|1|characters!30&26@
+con|1|con!31&115@
+cre|1|create_table!21&114@
+cur|3|currentTag!28&27@currentTag!32&27@cur!31&115@
+dat|1|data!33&43@
+don|1|donut!25&34@
+end|1|endDocument!30&26@
+ent|1|entries!34&83@
+fil|2|file_name_entry!35&67@filename!36&43@
+fou|1|found!28&27@
+get|3|get_name!18&58@get_power!24&34@get!20&42@
+hea|2|heading!37&35@heading!38&35@
+job|1|job!39&59@
+las|2|lastartist!28&27@lastartist!40&27@
+nam|2|name!27&59@name!18&59@
+pow|2|power!24&35@power!25&35@
+pri|1|print_button!41&83@
+rac|1|race!25&34@
+rea|1|read!20&42@
+row|1|rows!34&83@
+run|2|run!17&106@RUNNING!16&107@
+set|4|set!20&42@set_name!18&58@setup!29&74@setup!23&82@
+sho|2|showx!22&10@show_table!21&114@
+soc|1|sock!42&107@
+spe|1|speed!37&35@
+spo|1|spoiler!43&35@
+sta|2|startDocument!30&26@startElement!30&26@
+tal|1|talk!18&58@
+tex|1|text!35&67@
+tur|1|turn!24&34@
+wal|1|walk!18&58@
+wor|1|work!19&58@
+wri|1|write!20&42@
+x|1|x!44&11@
+-- END TREE

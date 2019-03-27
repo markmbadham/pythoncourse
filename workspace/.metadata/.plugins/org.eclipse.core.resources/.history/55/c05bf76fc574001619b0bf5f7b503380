@@ -1,0 +1,10 @@
+'''
+Created on 07 Sep 2016
+
+@author: mark
+'''
+def greeter(name):
+    print "hello %s" % name
+
+myname = "fred"
+greeter(myname)

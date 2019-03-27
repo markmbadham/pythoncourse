@@ -1,0 +1,36 @@
+'''
+Created on 15 May 2018
+
+@author: mark
+'''
+
+class Car(object):
+    '''
+    car class
+    '''
+    power = 5
+
+    def __init__(self, speed=0, heading=0):
+        '''
+        Constructor
+        '''
+        self.speed = speed
+        self.heading = heading
+    
+    def turn(self, angle):
+        self.heading = (self.heading + angle) % 360
+        if self.heading < 0:
+            self.heading = 360-self.heading 
+        
+    def accelerate(self):
+        self.speed += Car.power
+        
+def show_car(car):
+    print "heading", car.heading
+    print "speed", car.speed
+    
+if __name__ == '__main__':
+    my_car = Car()
+    my_car.accelerate()
+    my_car.turn(45)
+    

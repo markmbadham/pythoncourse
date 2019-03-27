@@ -1,0 +1,32 @@
+'''
+Created on 11 Jun 2014
+
+@author: mark
+'''
+class Person(object):
+    '''
+    classdocs
+    '''
+
+    def __init__(self,name='',age=0):
+        '''
+        Constructor
+        '''
+        self.name = name
+        self.age = age
+    
+    def talk(self):
+        return "hello my name is %s" % self.name
+    
+    def walk(self):
+        if self.age <=1 : return "crawling..."
+        elif self.age >75: return "hobbling..."
+        else : return "walking..."
+    
+if __name__ == '__main__':    
+    fred = Person(name="fred")
+    print fred.talk(), fred.walk()
+    sally = Person('Sally',5)
+    print sally.talk()
+    print sally.walk()
+    print sally.__str__()

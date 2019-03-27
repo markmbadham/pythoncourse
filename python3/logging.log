@@ -1,0 +1,34 @@
+2014-09-10 11:08:31,826:     DEBUG:executing <function Config.__init__ at 0x7f486c8a4620>
+2014-09-10 11:08:31,826:     DEBUG:executing <function Config.read_config at 0x7f486c8a4730>
+2014-09-10 11:08:31,826:     DEBUG:executing <function Config.display at 0x7f486c8a4950>
+2014-09-10 11:08:31,826:     DEBUG:executing <function Config.write at 0x7f486c8a4840>
+2014-09-10 11:10:00,926:     DEBUG:executing <function Config.__init__ at 0x7f57927c1620>
+2014-09-10 11:10:00,926:     DEBUG:executing <function Config.read_config at 0x7f57927c1730>
+2014-09-10 11:10:00,927:     ERROR:  File "./configclass.py", line 33, in <module>
+    conf = Config()
+
+2014-09-10 11:10:00,927:     ERROR:  File "/home/mark/course/python/python3/logger_class.py", line 15, in inner
+    fn(*args,**kwargs)
+
+2014-09-10 11:10:00,927:     ERROR:  File "./configclass.py", line 8, in __init__
+    self.read_config()
+
+2014-09-10 11:10:00,927:     ERROR:  File "/home/mark/course/python/python3/logger_class.py", line 17, in inner
+    for line in tb.format_stack():
+
+2014-09-10 11:10:00,927:     DEBUG:executing <function Config.display at 0x7f57927c1950>
+2014-09-10 11:10:00,927:     DEBUG:executing <function Config.write at 0x7f57927c1840>
+2014-09-10 11:14:58,950:     DEBUG:executing <function Config.__init__ at 0x7f9211cce620>
+2014-09-10 11:14:58,950:     DEBUG:executing <function Config.read_config at 0x7f9211cce730>
+2014-09-10 11:14:58,951:     DEBUG:executing <function Config.display at 0x7f9211cce950>
+2014-09-10 11:14:58,951:     DEBUG:executing <function Config.write at 0x7f9211cce840>
+2014-09-10 11:25:09,569:     DEBUG:executing <function Config.__init__ at 0x7fe5f1965598>
+2014-09-10 11:25:09,569:     DEBUG:executing <function Config.read_config at 0x7fe5f19656a8>
+2014-09-10 11:25:09,569:     DEBUG:executing <function Config.display at 0x7fe5f19659d8>
+2014-09-10 11:25:09,569:     DEBUG:executing <function Config.write at 0x7fe5f19658c8>
+2014-09-10 11:25:09,569:     DEBUG:executing <function Config.getport at 0x7fe5f19657b8>
+2014-09-10 11:26:03,980:     DEBUG:executing <function Config.__init__ at 0x7f0a95401598>
+2014-09-10 11:26:03,980:     DEBUG:executing <function Config.read_config at 0x7f0a954016a8>
+2014-09-10 11:26:03,980:     DEBUG:executing <function Config.display at 0x7f0a954019d8>
+2014-09-10 11:26:03,980:     DEBUG:executing <function Config.write at 0x7f0a954018c8>
+2014-09-10 11:26:03,981:     DEBUG:executing <function Config.getport at 0x7f0a954017b8>

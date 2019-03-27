@@ -1,0 +1,11 @@
+'''
+Created on 15 May 2018
+
+@author: mark
+'''
+def greeter(name, surname=''):
+    'greeter function'
+    print('hello {} {}'.format(name, surname))
+    
+greeter('fred')
+greeter('bob', 'cratchets')

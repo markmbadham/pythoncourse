@@ -1,0 +1,36 @@
+'''
+Created on 23 Sep 2016
+
+@author: mark
+'''
+import Tkinter as tk
+
+class Editor(tk.Tk):
+    '''
+    classdocs
+    '''
+
+    def __init__(self):
+        '''
+        Constructor
+        '''
+        tk.Tk.__init__(self)
+        self.filename_entry = tk.Entry()
+        self.filename_entry.grid(row=1, column=1)
+        self.open_button = tk.Button(text='open', command = self.open)
+        self.open_button.grid(row=1, column=2)
+        self.save_button = tk.Button(text='save', command = self.save)
+        self.save_button.grid(row=1, column=3)
+        self.text = tk.Text()
+        self.text.grid(row=2, column=1, columnspan=3)
+        self.mainloop(0)
+    
+    def open(self):
+        self.text.insert(0.0,
+            open(self.filname_entry.get()).read()
+            )
+    
+    def save(self): pass
+    
+if __name__ == '__main__':
+    Editor()

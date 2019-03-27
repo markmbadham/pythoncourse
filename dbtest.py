@@ -1,0 +1,51 @@
+import sqlite3 as db
+import traceback as tb
+class UserDB(object):
+    def __init__(self):
+        self.conn = db.connect('test1.db')
+        self.cur = self.conn.cursor()
+
+    def query(self,sql):
+        try:
+            self.cur.execute(sql)
+        except db.DatabaseError:
+            print("Error in %s" % sql)
+            print(tb.format_exc())
+        else: print("query succeeded")
+
+    def setup(self):
+        sql = '''
+           CREATE TABLE users(
+           id INT PRIMARY KEY,
+           username VARCHAR(64),
+           password VARCHAR(64))
+           '''
+        self.query(sql)
+
+    def addrow(self,id,username,password):
+        sql = '''
+            INSERT INTO users 
+            VALUES(?, ?,?)'''
+        self.cur.executemany(sql,[(id,username,password)])
+        self.conn.commit()
+    
+    def showtable(self):
+        sql = "SELECT * FROM users"
+        self.query(sql)
+        out = '\t'.join([x[0] for x in self.cur.description])
+        for row in self.cur:
+             out += '\n' + '\t'.join(map(str,row)) 
+        return out     
+        #for row in self.cur:
+        #   print row
+
+    def getcols(self):
+        sql = "PRAGMA table_info('users')"
+        self.query(sql)
+        return self.cur.fetchall()
+
+if __name__ == "__main__":
+    userdb = UserDB()
+    #userdb.addrow(4,'harry','qwerty')
+    print(userdb.showtable())
+

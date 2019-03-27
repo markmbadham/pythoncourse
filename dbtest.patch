@@ -1,0 +1,31 @@
+--- dbtest.py	(original)
++++ dbtest.py	(refactored)
+@@ -9,9 +9,9 @@
+         try:
+             self.cur.execute(sql)
+         except db.DatabaseError:
+-            print "Error in %s" % sql
+-            print tb.format_exc()
+-        else: print "query succeeded"
++            print("Error in %s" % sql)
++            print(tb.format_exc())
++        else: print("query succeeded")
+ 
+     def setup(self):
+         sql = '''
+@@ -32,7 +32,7 @@
+     def showtable(self):
+         sql = "SELECT * FROM users"
+         self.query(sql)
+-        out = '\t'.join(map(lambda x:x[0],self.cur.description))
++        out = '\t'.join([x[0] for x in self.cur.description])
+         for row in self.cur:
+              out += '\n' + '\t'.join(map(str,row)) 
+         return out     
+@@ -46,5 +46,5 @@
+ if __name__ == "__main__":
+     userdb = UserDB()
+     #userdb.addrow(4,'harry','qwerty')
+-    print userdb.showtable()
++    print(userdb.showtable())
+ 

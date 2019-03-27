@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>form</title>
+    </head>
+    <body>
+	<form>
+	   <table>
+	       <tr>
+                  <td>
+                     <label for="name">Name</label>
+                  </td> 
+	          <td>
+               <input type="text" name="name" id="nameinput" 
+		value="%(name)s" onfocus="this.value=''">
+                 </td>
+               </tr>
+	       <tr>
+                  <td><label for="surname">Surname</label></td> 
+                  <td><input type="text" name="surname" value="%(surname)s"></td>
+              </tr>
+              <tr>
+		  <td>Things I am Bringing</td>
+		  <td>
+                      <input type="checkbox" name="ownpc" value="Y" checked> Own PC<br>
+                      <input type="checkbox" name="book" value="Y"> Book<br>
+                      <input type="checkbox" name="pen" value="Y"> Pen<br>
+		  </td>
+              </tr>
+              <tr>
+		  <td>Sex</td>
+		  <td>
+                      <input type="radio" name="sex" value="male" checked>Male<br>
+                      <input type="radio" name="sex" value="female">Female<br>
+		  </td>
+	      </tr>
+	      <tr>
+		  <td>Comment</td>
+		  <td>
+		      <textarea name="comment" rows="5" cols="20"></textarea>
+	      </tr>
+	      <tr>
+		  <td>Country</td>
+		  <td>
+		      <select multiple name="country">
+			  <option value="">Choose One</option>
+			  <option value="ZA">South Africa</option>
+			  <option value="BW">Botswana</option>
+			  <option value="NA">Namibia</option>
+			  <option value="ZW">Zimbabwe</option>
+		      </select>
+	      </tr>
+	      <tr>
+                  <td colspan="2" style="text-align:center">
+			<input type="submit" value="Send">
+		  </td>
+	      </tr>
+          </table>
+	</form>
+    </body>
+</html>

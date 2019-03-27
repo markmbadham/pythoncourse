@@ -1,0 +1,13 @@
+'''
+Created on 16 May 2018
+
+@author: mark
+'''
+import Tkinter as tk
+
+win = tk.Tk()
+button = tk.Button(text='press')
+button.grid(row=1, column=1)
+text = tk.Text()
+text.grid(row=2, column=1)
+win.mainloop()

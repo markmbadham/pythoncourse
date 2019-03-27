@@ -1,0 +1,7 @@
+2017-08-17 11:12:54,472:DEBUG:140672787162880:Starting
+2017-08-17 11:14:29,589:DEBUG:140204087449344:Starting
+2017-08-17 11:14:29,590:ERROR:140204087449344:err
+Traceback (most recent call last):
+  File "/home/mark/Documents/course/python/workspace/py3cours/exceptions.py", line 13, in <module>
+    a[1]
+NameError: name 'a' is not defined

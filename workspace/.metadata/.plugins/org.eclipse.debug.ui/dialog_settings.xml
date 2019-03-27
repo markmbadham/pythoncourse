@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.debug.ui.STRING_VARIABLE_SELECTION_DIALOG_SECTION">
+		<item value="508" key="DIALOG_WIDTH"/>
+		<item value="1|Oxygen-Sans Sans-Book|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="689" key="DIALOG_HEIGHT"/>
+		<item value="129" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.debug.ui.SCOPED_SAVE_SELECTION_DIALOG">
+		<item value="377" key="DIALOG_WIDTH"/>
+		<item value="1|Oxygen-Sans Sans-Book|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="406" key="DIALOG_HEIGHT"/>
+	</section>
+	<section name="org.eclipse.debug.ui.SELECT_LAUNCH_SHORTCUT_DIALOG">
+		<item value="352" key="DIALOG_WIDTH"/>
+		<item value="1|Oxygen-Sans Sans-Book|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="455" key="DIALOG_HEIGHT"/>
+	</section>
+</section>

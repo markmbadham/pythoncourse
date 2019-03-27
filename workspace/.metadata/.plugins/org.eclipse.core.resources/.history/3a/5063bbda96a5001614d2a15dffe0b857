@@ -1,0 +1,13 @@
+'''
+Created on 08 Nov 2016
+
+@author: mark
+'''
+from random import randint
+
+max_rnd = int(raw_input("Enter the max random"))
+min_rnd = int(raw_input("Enter the min random"))
+
+rnd = randint(min,max)
+
+print rnd

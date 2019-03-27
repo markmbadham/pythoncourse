@@ -1,0 +1,40 @@
+'''
+Created on 22 Sep 2016
+
+@author: mark
+'''
+import Tkinter as tk
+
+class GUI(tk.Tk):
+
+    def __init__(self):
+        tk.Tk.__init__(self)
+        #super(GUI,self).__init__()
+        self.rows = 0
+        self.entry={}
+    
+    def setup(self,*fields):
+        for title in fields:
+            self.add_row(title)
+        text = tk.Text()
+        text.grid(row=self.rows+1, column = 1, columnspan=2)
+        self.text = text
+        press = tk.Button(text = 'Print', command=self.button_cmd)
+        press.grid(row=self.rows+2,column=1)
+        self.mainloop(0)
+    
+    def add_row(self, title):
+        self.rows +=1
+        label = tk.Label(text=title)
+        label.grid(row=self.rows, column = 1)
+        entry = tk.Entry()
+        entry.grid(row=self.rows, column = 2)
+        self.entry[title] = entry
+        
+    def button_cmd(self):
+        for title,entry in self.entry.items():
+            print '%s\t%s' % (title, entry.get())
+    
+if __name__ == '__main__':
+    win = GUI()
+    win.setup()

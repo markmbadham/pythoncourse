@@ -1,0 +1,16 @@
+'''
+Created on 07 Sep 2016
+
+@author: mark
+'''
+def greeter(name, surname=''):
+    return "hello %s %s" % (name, surname)
+
+def square(x):
+    return x**2
+
+if __name__ == '__main__':
+    print square(3)
+
+    myname = "fred"
+    print greeter(myname, 'basset')

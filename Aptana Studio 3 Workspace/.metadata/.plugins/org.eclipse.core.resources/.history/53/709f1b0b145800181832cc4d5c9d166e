@@ -1,0 +1,13 @@
+'''
+Created on 15 May 2018
+
+@author: mark
+'''
+def greeter(name, surname=''):
+    'greeter function'
+    return 'hello {} {}'.format(name, surname)
+    
+def square(x, y=2):
+    return x ** y
+
+print(square(2))

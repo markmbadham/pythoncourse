@@ -1,0 +1,71 @@
+2015-10-02 09:36:34,678:DEBUG:root:constructor called
+2015-10-02 09:36:34,785:DEBUG:root:adding row: name
+2015-10-02 09:36:34,793:DEBUG:root:adding row: surname
+2015-10-02 09:36:34,793:DEBUG:root:adding row: age
+2015-10-02 09:36:48,162:INFO:root:button pressed
+2015-10-02 09:38:38,228:     DEBUG:root:constructor called
+2015-10-02 09:38:38,333:     DEBUG:root:adding row: name
+2015-10-02 09:38:38,341:     DEBUG:root:adding row: surname
+2015-10-02 09:38:38,341:     DEBUG:root:adding row: age
+2015-10-02 09:38:49,990:      INFO:root:button pressed
+2016-03-10 11:24:52,171:     DEBUG:root:constructor called
+2016-03-10 11:24:52,276:     DEBUG:root:adding row: name
+2016-03-10 11:24:52,284:     DEBUG:root:adding row: surname
+2016-03-10 11:24:52,284:     DEBUG:root:adding row: age
+2016-03-10 11:25:06,147:      INFO:root:button pressed
+2016-03-10 11:28:22,361:     DEBUG:root:constructor called
+2016-03-10 11:28:22,466:     DEBUG:root:adding row: username
+2016-03-10 11:28:43,950:     DEBUG:root:constructor called
+2016-03-10 11:28:44,057:     DEBUG:root:adding row: username
+2016-03-10 11:28:44,065:     DEBUG:root:adding row: password
+2016-03-10 11:28:53,963:      INFO:root:button pressed
+2016-11-03 14:44:33,492:     DEBUG:root:constructor called
+2016-11-03 14:44:33,931:     DEBUG:root:adding row: username
+2016-11-03 14:44:34,025:     DEBUG:root:adding row: password
+2016-11-03 14:44:53,975:      INFO:root:button pressed
+2016-11-03 14:44:56,569:      INFO:root:button pressed
+2016-11-03 14:44:57,258:      INFO:root:button pressed
+2016-11-03 14:44:57,458:      INFO:root:button pressed
+2017-04-06 15:18:31,515:     DEBUG:root:constructor called
+2017-04-06 15:19:39,954:     DEBUG:root:constructor called
+2017-04-06 15:20:30,185:     DEBUG:root:constructor called
+2017-04-06 15:27:55,932:     DEBUG:root:constructor called
+2017-04-06 15:27:56,103:     DEBUG:root:adding row: id
+2017-04-06 15:27:56,489:     DEBUG:root:adding row: username
+2017-04-06 15:27:56,490:     DEBUG:root:adding row: password
+2017-04-06 15:28:18,214:     DEBUG:root:constructor called
+2017-04-06 15:28:18,328:     DEBUG:root:adding row: id
+2017-04-06 15:28:18,345:     DEBUG:root:adding row: username
+2017-04-06 15:28:18,345:     DEBUG:root:adding row: password
+2017-04-06 15:36:42,167:     DEBUG:root:constructor called
+2017-04-06 15:36:42,304:     DEBUG:root:adding row: id
+2017-04-06 15:36:42,386:     DEBUG:root:adding row: username
+2017-04-06 15:36:42,386:     DEBUG:root:adding row: password
+2017-04-06 15:37:38,841:     DEBUG:root:constructor called
+2017-04-06 15:37:38,950:     DEBUG:root:adding row: id
+2017-04-06 15:37:38,967:     DEBUG:root:adding row: username
+2017-04-06 15:37:38,968:     DEBUG:root:adding row: password
+2017-04-06 15:38:01,418:      INFO:root:button pressed
+2017-04-06 15:40:39,200:     DEBUG:root:constructor called
+2017-04-06 15:40:39,316:     DEBUG:root:adding row: id
+2017-04-06 15:40:39,334:     DEBUG:root:adding row: username
+2017-04-06 15:40:39,334:     DEBUG:root:adding row: password
+2017-04-06 15:40:51,421:      INFO:root:button pressed
+2017-04-06 15:41:15,587:     DEBUG:root:constructor called
+2017-04-06 15:41:15,697:     DEBUG:root:adding row: id
+2017-04-06 15:41:15,714:     DEBUG:root:adding row: username
+2017-04-06 15:41:15,714:     DEBUG:root:adding row: password
+2017-04-06 15:41:27,342:      INFO:root:button pressed
+2017-04-06 15:42:07,643:     DEBUG:root:constructor called
+2017-04-06 15:42:07,752:     DEBUG:root:adding row: id
+2017-04-06 15:42:07,769:     DEBUG:root:adding row: username
+2017-04-06 15:42:07,770:     DEBUG:root:adding row: password
+2017-04-06 15:42:18,177:      INFO:root:button pressed
+2017-04-06 15:42:37,245:     DEBUG:root:constructor called
+2017-04-06 15:42:37,356:     DEBUG:root:adding row: id
+2017-04-06 15:42:37,374:     DEBUG:root:adding row: username
+2017-04-06 15:42:37,375:     DEBUG:root:adding row: password
+2017-04-06 15:42:48,118:      INFO:root:button pressed
+2017-04-06 15:42:56,913:      INFO:root:button pressed
+2017-04-06 15:43:06,827:      INFO:root:button pressed
+2017-04-06 15:43:21,450:      INFO:root:button pressed

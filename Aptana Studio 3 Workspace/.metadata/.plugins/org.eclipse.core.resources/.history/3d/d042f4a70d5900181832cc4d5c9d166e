@@ -1,0 +1,13 @@
+'''
+Created on 16 May 2018
+
+@author: mark
+'''
+import Tkinter as tk
+
+win = tk.Tk()
+for title in ['top', 'bottom', 'left','right']:
+    button = tk.Button(text=title)
+    button.pack(side=title)
+
+win.mainloop()

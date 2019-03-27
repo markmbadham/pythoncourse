@@ -1,0 +1,15 @@
+2014-09-10 21:25:49,194:     DEBUG:executing <function Config.__init__ at 0x7fce24c4f620>
+2014-09-10 21:25:49,195:     DEBUG:executing <function Config.read_config at 0x7fce24c4f6a8>
+2014-09-10 21:25:49,195:     DEBUG:executing <function Config.display at 0x7fce24c4f840>
+2014-09-10 21:25:49,195:     DEBUG:executing <function Config.write at 0x7fce24c4f7b8>
+2014-09-10 21:25:49,195:     DEBUG:executing <function Config.getport at 0x7fce24c4f730>
+2014-09-10 21:40:51,088:     DEBUG:executing __init__
+2014-09-10 21:40:51,088:     DEBUG:executing read_config
+2014-09-10 21:40:51,089:     DEBUG:executing display
+2014-09-10 21:40:51,089:     DEBUG:executing write
+2014-09-10 21:40:51,089:     DEBUG:executing getport
+2014-09-10 21:44:04,299:     DEBUG:executing Config.__init__
+2014-09-10 21:44:04,299:     DEBUG:executing Config.read_config
+2014-09-10 21:44:04,300:     DEBUG:executing Config.display
+2014-09-10 21:44:04,300:     DEBUG:executing Config.write
+2014-09-10 21:44:04,300:     DEBUG:executing Config.getport

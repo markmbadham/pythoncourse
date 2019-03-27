@@ -1,0 +1,17 @@
+MODULES_MANAGER_V2
+SocketServer|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/SocketServer.py
+cars|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/cars.py
+classes|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/classes.py
+config|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/config.py
+form|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/form.py
+form_adder|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/form_adder.py
+functions|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/functions.py
+gui01|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/gui01.py
+handle_exceptions|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/handle_exceptions.py
+loops.__init__|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/loops/__init__.py
+loops.tree|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/loops/tree.py
+person|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/person.py
+readingfiles|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/readingfiles.py
+socketio|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/socketio.py
+userdb|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/userdb.py
+xmlstuff|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/pythonSKA/xmlstuff.py

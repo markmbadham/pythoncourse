@@ -1,0 +1,35 @@
+'''
+Created on 10 Jun 2014
+
+@author: mark
+'''
+
+class Account(object):
+    '''
+    classdocs
+    '''
+    last_accno = 0
+    type = "ASSET"
+    
+    def __init__(self):
+        self.balance = 0
+        self.accno  = (Account.last_accno += 1)
+        
+    def debit(self,amount):
+        self.balance -= amount
+        
+    def credit(self,amount):
+        self.balance += amount
+        
+if __name__ == "__main__":
+    check = Account()
+    card = Account()
+    print card.balance
+    check.balance = 100
+    check.debit(5)
+    print check.balance
+    card.debit(50)
+    print card.balance
+    card.debit(10) #Account.debit(card,10)
+    print card.balance
+    print Account.__dict__

@@ -1,0 +1,84 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mark/Documents/course/python/Aptana Studio 3 Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/intr/com.python.pydev.analysis/v2_indexcache
+aa|1525869586361658000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/aa.py
+whileloop|1525866944970728000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/whileloop.py
+cars|1525935255401091000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/cars.py
+useIf|1525766957757423000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/useIf.py
+forloop|1525867343593301000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/forloop.py
+functions|1525868447094629000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/functions.py
+strings|1525696614698441000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/strings.py
+guess|1525772119175607000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/guess.py
+review1|1525849518112108000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/review1.py
+dice_game|1525856421090307000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/dice_game.py
+Classes|1525859113145063000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/intr/Classes.py
+-- END DISKCACHE
+-- START DICTIONARY
+15
+13=Person.__init__
+9=useIf
+7=functions
+11=Address
+14=Address.__init__
+6=dice_game
+2=whileloop
+4=cars
+5=strings
+8=guess
+12=Car
+3=review1
+15=Car.__init__
+10=Person
+1=Classes
+-- END DICTIONARY
+-- START TREE 1
+31
+add|1|Address!9@
+ans|1|answer!19@
+avo|1|AVOGADRO!27@
+car|1|Car!33@
+cha|1|change!43@
+dic|2|DICE_MAX!51@DICE_MIN!51@
+end|1|endgame!50@
+fer|1|ferrari!35@
+gam|1|game!50@
+gra|1|graph!58@
+gre|1|greeter!58@
+gue|2|guess!67@gueses!67@
+int|1|interest!58@
+l|1|l!27@
+max|1|max_rnd!67@
+mes|1|message!75@
+min|1|min_rnd!67@
+my_|1|my_var!27@
+n|1|n!19@
+nam|1|name!43@
+num|1|number1!75@
+per|3|person2!11@person1!11@Person!9@
+pla|1|PLAYERS!51@
+ran|1|random_test!58@
+rnd|1|rnd!67@
+rol|1|roll!50@
+s|1|s!43@
+str|1|str1!43@
+sur|1|surname!43@
+tot|1|TOTALS!51@
+tur|1|turn!50@
+-- END TREE
+-- START TREE 2
+14
+__i|3|__init__!10&10@__init__!11&10@__init__!12&34@
+__s|1|__str__!11&10@
+acc|1|accelerate!12&34@
+add|1|address!13&11@
+bra|1|brake!12&34@
+cit|1|city!14&11@
+nam|1|name!13&11@
+pco|1|pcode!14&11@
+pho|1|phone_num!13&11@
+pur|1|purchase_parking_pass!10&10@
+reg|1|reg!15&35@
+spe|1|speed!15&35@
+str|1|street!14&11@
+val|1|validate!11&10@
+-- END TREE

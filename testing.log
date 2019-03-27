@@ -1,0 +1,7 @@
+2017-04-11 15:13:49,370:   DEBUG:root:debug message
+2017-04-11 15:14:01,612:   ERROR:root:ERR occured
+2017-04-11 15:19:01,974:   ERROR:root:Traceback (most recent call last):
+  File "<ipython-input-13-7f825a407310>", line 1, in <module>
+    try:1/0
+ZeroDivisionError: integer division or modulo by zero
+

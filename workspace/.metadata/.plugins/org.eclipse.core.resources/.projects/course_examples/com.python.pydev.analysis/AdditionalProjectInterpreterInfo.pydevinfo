@@ -1,0 +1,57 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mark/Documents/course/python/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/course_examples/com.python.pydev.analysis/v2_indexcache
+whileloop|1478605740934843000|/home/mark/Documents/course/python/workspace/course_examples/whileloop.py
+forloop|1478606275475805000|/home/mark/Documents/course/python/workspace/course_examples/forloop.py
+functions|1478690452448243000|/home/mark/Documents/course/python/workspace/course_examples/functions.py
+test|1492077614094018000|/home/mark/Documents/course/python/workspace/course_examples/test.py
+guess|1478609860009548000|/home/mark/Documents/course/python/workspace/course_examples/guess.py
+mylist|1478611808803387000|/home/mark/Documents/course/python/workspace/course_examples/mylist.py
+person|1457694727108404000|/home/mark/Documents/course/python/workspace/course_examples/person.py
+list2|1478612667790644000|/home/mark/Documents/course/python/workspace/course_examples/list2.py
+test1|1478690634300516000|/home/mark/Documents/course/python/workspace/course_examples/test1.py
+iftest|1478596754869699000|/home/mark/Documents/course/python/workspace/course_examples/iftest.py
+-- END DISKCACHE
+-- START DICTIONARY
+11
+7=whileloop
+11=Person.__init__
+8=forloop
+4=functions
+5=guess
+6=mylist
+9=person
+3=list2
+2=test1
+10=Person
+1=iftest
+-- END DICTIONARY
+-- START TREE 1
+18
+a|1|a!11@
+bro|1|browser!19@
+ema|1|email!27@
+get|1|get_int!34@
+gre|1|greeter!34@
+gue|1|guess!43@
+l|2|l!51@l!27@
+lin|2|line!59@line!67@
+max|1|max_rnd!43@
+min|1|min_rnd!43@
+per|1|Person!73@
+rnd|1|rnd!43@
+s|1|s!27@
+squ|1|square!34@
+t|1|t!27@
+tes|1|test!10@
+tre|2|tree!34@tree2!34@
+x|1|x!59@
+-- END TREE
+-- START TREE 2
+5
+__i|1|__init__!10&74@
+age|1|age!11&75@
+nam|1|name!11&75@
+o|1|o!10&75@
+tal|1|talk!10&74@
+-- END TREE

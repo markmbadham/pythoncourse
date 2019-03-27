@@ -1,0 +1,41 @@
+'''
+Created on 02 May 2017
+
+@author: mark
+'''
+import socket
+import select
+
+RUN = True
+rlist = []
+wlist = []
+xlist = []
+send_callback = {}
+recv_callback = {}
+sock = socket.socket()
+sock.connect(('ledge.co.za',80))
+sock.setblocking(0)
+def add_task(sock,send,recv):
+    fno = sock.fileno()
+    rlist.append(fno)
+    wlist.append(fno)
+    xlist.append(fno)
+    send_callback[fno] = send
+    recv_callback[fno] = recv
+def pfunc(x):print x
+
+
+add_task(sock,lambda :sock.send('GET HTTP/1.0 \n\n\n'), 
+            lambda:pfunc(sock.recv(8192)) )    
+
+while RUN:
+    (orlist, owlist, oxlist) = select.select(rlist, wlist, xlist)
+    print owlist
+    for fno in owlist: 
+        print owlist
+        send_callback.get(fno)()
+        #send(fno,"GET HTTP/1.0 \n\n\n")
+    for fno in orlist:
+        recv_callback.get(fno)()
+        RUN = False
+ 

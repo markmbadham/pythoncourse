@@ -1,0 +1,12 @@
+'''
+Created on 10 Jun 2014
+
+@author: mark
+'''
+
+class Account(object):
+    '''
+    classdocs
+    '''
+    accno = 0
+    type = "ASSET"

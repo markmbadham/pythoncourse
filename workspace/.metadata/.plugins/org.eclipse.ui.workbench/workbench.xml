@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="41" version="2.0">
+<workbenchAdvisor/>
+<window height="743" maximized="true" width="659" x="1744" y="24">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.python.pydev.toolbars.evaluateActionSetterToolbar" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.compare.CompareEditor" itemType="typePlaceholder" x="96" y="30"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - PyDev">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.python.pydev.editor.PythonEditor" name="loops.py" partName="loops" path="/home/mark/Documents/course/python/workspace/py3cours/loops.py" title="loops" tooltip="py3cours/loops.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/loops.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="696" selectionTopPixel="819"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="dicttionaries.py" partName="dicttionaries" path="/home/mark/Documents/course/python/workspace/py3cours/dicttionaries.py" title="dicttionaries" tooltip="py3cours/dicttionaries.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/dicttionaries.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="179" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="closure.py" partName="closure" path="/home/mark/Documents/course/python/workspace/py3cours/closure.py" title="closure" tooltip="py3cours/closure.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/closure.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="358" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="accounting.py" partName="accounting" path="/home/mark/Documents/course/python/workspace/py3cours/accounting.py" title="accounting" tooltip="py3cours/accounting.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/accounting.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="606" selectionTopPixel="242"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="people.py" partName="people" path="/home/mark/Documents/course/python/workspace/py3cours/people.py" title="people" tooltip="py3cours/people.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/people.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="535" selectionTopPixel="217"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="exceptions.py" partName="exceptions" path="/home/mark/Documents/course/python/workspace/py3cours/exceptions.py" title="exceptions" tooltip="py3cours/exceptions.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/exceptions.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="229" selectionTopPixel="92"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="getnumbers.py" partName="getnumbers" path="/home/mark/Documents/course/python/workspace/py3cours/getnumbers.py" title="getnumbers" tooltip="py3cours/getnumbers.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/getnumbers.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="385" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="listdir.py" partName="listdir" path="/home/mark/Documents/course/python/workspace/py3cours/listdir.py" title="listdir" tooltip="py3cours/listdir.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/listdir.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="245" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="readfile.py" partName="readfile" path="/home/mark/Documents/course/python/workspace/py3cours/readfile.py" title="readfile" tooltip="py3cours/readfile.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/readfile.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="169" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="readconfig.py" partName="readconfig" path="/home/mark/Documents/course/python/workspace/py3cours/readconfig.py" title="readconfig" tooltip="py3cours/readconfig.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/readconfig.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="972" selectionTopPixel="492"/>
+</editor>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="userdb.py" partName="userdb" path="/home/mark/Documents/course/python/workspace/py3cours/userdb.py" title="userdb" tooltip="py3cours/userdb.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/userdb.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="959" selectionTopPixel="623"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="properies.py" partName="properies" path="/home/mark/Documents/course/python/workspace/py3cours/properies.py" title="properies" tooltip="py3cours/properies.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/py3cours/properies.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="95" selectionOffset="273" selectionTopPixel="258"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
+<expanded IMemento.internal.id="/home/mark/Documents/course/python/workspace/py3cours"/>
+<selected IMemento.internal.id="/home/mark/Documents/course/python/workspace/py3cours/userdb.py"/>
+</viewState>
+</view>
+<view id="org.eclipse.team.ui.GenericHistoryView" partName="History">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="org.python.pydev.ui.PythonPerspective">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.python.pydev.ui.perspective.PythonPerspectiveFactory" id="org.python.pydev.ui.PythonPerspective" label="PyDev"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.python.pydev.navigate.actionSet"/>
+<alwaysOnActionSet id="org.codehaus.groovy.eclipse.quickfix.actionSet"/>
+<alwaysOnActionSet id="org.codehaus.groovy.eclipse.ui.groovyElementCreation"/>
+<show_view_action id="org.python.pydev.views.PyCodeCoverageView"/>
+<show_view_action id="org.python.pydev.navigator.view"/>
+<show_view_action id="org.python.pydev.debug.pyunit.pyUnitView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.project.PythonProjectWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonSourceFolderWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonPackageWizard"/>
+<new_wizard_action id="org.python.pydev.ui.wizards.files.PythonModuleWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.23272438"/>
+</fastViews>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.team.ui.GenericHistoryView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.python.pydev.navigator.view" style="1">
+<fastViews>
+<view id="org.python.pydev.navigator.view" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder appearance="2" expanded="0">
+<page content="org.python.pydev.navigator.view" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView:Console View #1" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25984251" ratioLeft="264" ratioRight="752" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.7942943" ratioLeft="529" ratioRight="137" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.egit.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/advcourse/async_sock1.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/advcourse/async_sim.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/advcourse/async_sock_coro.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/advcourse/asyc_sock_coro2.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/intro/tests.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/course_examples/functions.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/course_examples/whileloop.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/intro/interactive.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/py3cours/loops.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/py3cours/closure.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/py3cours/accounting.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/py3cours/people.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/py3cours/exceptions.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/py3cours/getnumbers.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/py3cours/readfile.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/py3cours/readconfig.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/py3cours/userdb.py"/>
+</editors>
+<item historyLabel="async_sock_coro" index="2">
+<position info="not_deleted" x="483" y="0"/>
+</item>
+<item historyLabel="async_sock1" index="0">
+<position info="not_deleted" x="308" y="0"/>
+</item>
+<item historyLabel="async_sim" index="1">
+<position info="not_deleted" x="189" y="0"/>
+</item>
+<item historyLabel="async_sock_coro" index="2">
+<position info="not_deleted" x="483" y="0"/>
+</item>
+<item historyLabel="async_sock_coro" index="2">
+<position info="not_deleted" x="713" y="0"/>
+</item>
+<item historyLabel="async_sock_coro" index="2">
+<position info="not_deleted" x="128" y="0"/>
+</item>
+<item historyLabel="async_sock_coro" index="2">
+<position info="not_deleted" x="0" y="830"/>
+</item>
+<item historyLabel="asyc_sock_coro2" index="3">
+<position info="not_deleted" x="144" y="0"/>
+</item>
+<item historyLabel="async_sock_coro" index="2">
+<position info="not_deleted" x="0" y="830"/>
+</item>
+<item historyLabel="async_sock1" index="0">
+<position info="not_deleted" x="732" y="0"/>
+</item>
+<item historyLabel="async_sock_coro" index="2">
+<position info="not_deleted" x="508" y="188"/>
+</item>
+<item historyLabel="tests" index="4">
+<position info="not_deleted" x="390" y="0"/>
+</item>
+<item historyLabel="functions" index="5">
+<position info="not_deleted" x="46" y="0"/>
+</item>
+<item historyLabel="whileloop" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="interactive" index="7">
+<position info="not_deleted" x="197" y="0"/>
+</item>
+<item historyLabel="whileloop" index="6">
+<position info="not_deleted" x="77" y="0"/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position/>
+</item>
+<item historyLabel="loops" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="loops" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="closure" index="9">
+<position info="not_deleted" x="358" y="0"/>
+</item>
+<item historyLabel="loops" index="8">
+<position info="not_deleted" x="531" y="0"/>
+</item>
+<item historyLabel="closure" index="9">
+<position info="not_deleted" x="358" y="0"/>
+</item>
+<item historyLabel="loops" index="8">
+<position info="not_deleted" x="696" y="0"/>
+</item>
+<item historyLabel="accounting" index="10">
+<position info="not_deleted" x="856" y="0"/>
+</item>
+<item historyLabel="accounting" index="10">
+<position info="not_deleted" x="776" y="0"/>
+</item>
+<item historyLabel="accounting" index="10">
+<position info="not_deleted" x="797" y="0"/>
+</item>
+<item historyLabel="accounting" index="10">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="people" index="11">
+<position info="not_deleted" x="535" y="0"/>
+</item>
+<item historyLabel="accounting" index="10">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="accounting" index="10">
+<position info="not_deleted" x="606" y="0"/>
+</item>
+<item historyLabel="exceptions" index="12">
+<position info="not_deleted" x="455" y="0"/>
+</item>
+<item historyLabel="getnumbers" index="13">
+<position info="not_deleted" x="385" y="0"/>
+</item>
+<item historyLabel="exceptions" index="12">
+<position info="not_deleted" x="455" y="0"/>
+</item>
+<item historyLabel="exceptions" index="12">
+<position info="not_deleted" x="219" y="0"/>
+</item>
+<item historyLabel="exceptions" index="12">
+<position info="not_deleted" x="229" y="0"/>
+</item>
+<item historyLabel="readfile" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="readfile" index="14">
+<position info="not_deleted" x="169" y="0"/>
+</item>
+<item historyLabel="readconfig" index="15">
+<position info="not_deleted" x="490" y="0"/>
+</item>
+<item historyLabel="readconfig" index="15">
+<position/>
+</item>
+<item historyLabel="readconfig" index="15">
+<position/>
+</item>
+<item active="true" historyLabel="userdb" index="16">
+<position info="not_deleted" x="1160" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="stickyFolderRight"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="userdb.py" tooltip="py3cours/userdb.py">
+<persistable path="/py3cours/userdb.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="properies.py" tooltip="py3cours/properies.py">
+<persistable path="/py3cours/properies.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="readconfig.py" tooltip="py3cours/readconfig.py">
+<persistable path="/py3cours/readconfig.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="readfile.py" tooltip="py3cours/readfile.py">
+<persistable path="/py3cours/readfile.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="listdir.py" tooltip="py3cours/listdir.py">
+<persistable path="/py3cours/listdir.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="getnumbers.py" tooltip="py3cours/getnumbers.py">
+<persistable path="/py3cours/getnumbers.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="exceptions.py" tooltip="py3cours/exceptions.py">
+<persistable path="/py3cours/exceptions.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="accounting.py" tooltip="py3cours/accounting.py">
+<persistable path="/py3cours/accounting.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="people.py" tooltip="py3cours/people.py">
+<persistable path="/py3cours/people.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="closure.py" tooltip="py3cours/closure.py">
+<persistable path="/py3cours/closure.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="dicttionaries.py" tooltip="py3cours/dicttionaries.py">
+<persistable path="/py3cours/dicttionaries.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="loops.py" tooltip="py3cours/loops.py">
+<persistable path="/py3cours/loops.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="whileloop.py" tooltip="course_examples/whileloop.py">
+<persistable path="/course_examples/whileloop.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="asyc_sock_coro2.py" tooltip="advcourse/asyc_sock_coro2.py">
+<persistable path="/advcourse/asyc_sock_coro2.py"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="async_sock_coro.py" tooltip="advcourse/async_sock_coro.py">
+<persistable path="/advcourse/async_sock_coro.py"/>
+</file>
+</mruList>
+</workbench>

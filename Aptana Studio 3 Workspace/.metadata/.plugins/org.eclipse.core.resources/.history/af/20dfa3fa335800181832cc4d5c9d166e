@@ -1,0 +1,18 @@
+'''
+Created on 15 May 2018
+
+@author: mark
+'''
+class C(object):
+    'some doxs'
+    
+    a = 10
+    
+    def __init__(self, x=1):
+        self.x = x
+        
+
+o = C()
+o2 = C()
+o.x += 1
+print o.x, o2.x

@@ -1,0 +1,8 @@
+DEBUG:root:test
+DEBUG:root:test2
+2018-08-24 13:49:43,350:DEBUG:root:test2
+2018-08-24 13:51:14,872:ERROR:root:integer division or modulo by zero
+Traceback (most recent call last):
+  File "<ipython-input-7-870dbd226e80>", line 2, in <module>
+    1/0
+ZeroDivisionError: integer division or modulo by zero

@@ -1,0 +1,96 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mark/Documents/course/python/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/py3cours/com.python.pydev.analysis/v2_indexcache
+readfile|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/readfile.py
+userdb|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/userdb.py
+getnumbers|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/getnumbers.py
+listdir|1503589906000000000|/home/mark/Documents/course/python/workspace/py3cours/listdir.py
+loops|1503589906000000000|/home/mark/Documents/course/python/workspace/py3cours/loops.py
+dicttionaries|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/dicttionaries.py
+properies|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/properies.py
+accounting|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/accounting.py
+readconfig|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/readconfig.py
+closure|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/closure.py
+people|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/people.py
+exceptions|1503589905000000000|/home/mark/Documents/course/python/workspace/py3cours/exceptions.py
+-- END DISKCACHE
+-- START DICTIONARY
+25
+7=readfile
+16=Account
+21=Person.__init__
+13=C
+18=Config
+11=dicttionaries
+2=accounting
+20=C.x
+23=UserDB.__init__
+5=closure
+24=Config.__init__
+12=userdb
+10=getnumbers
+17=CreditAccount
+3=loops
+1=properies
+25=CreditAccount.__init__
+19=C.__init__
+4=readconfig
+9=people
+8=exceptions
+6=listdir
+15=UserDB
+14=Person
+22=Account.__init__
+-- END DICTIONARY
+-- START TREE 1
+26
+C|1|C!9@
+acc|1|Account!17@
+avg|1|avg!26@
+c|1|c!11@
+con|1|Config!33@
+cre|2|credit!19@CreditAccount!17@
+cub|1|cube!43@
+cur|1|current!19@
+dir|1|dirlist!50@
+f|1|f!59@
+fil|1|FILENAME!35@
+for|1|FORMAT!67@
+fre|1|fred!75@
+get|4|get_float!82@get_num!82@get_int!82@get_val!34@
+gre|1|greeter!26@
+int|1|interest!26@
+mak|1|make_double!42@
+mon|1|months!91@
+per|1|Person!73@
+rea|1|read_dict!34@
+squ|3|square!42@square2!26@square!26@
+tes|1|testargs!26@
+tre|1|tree!26@
+upd|1|updown!42@
+use|2|UserDB!97@users!99@
+wri|1|write_dict!34@
+-- END TREE
+-- START TREE 2
+20
+__i|6|__init__!13&10@__init__!14&74@__init__!15&98@__init__!16&18@__init__!17&18@__init__!18&34@
+_x|2|_x!19&11@_x!20&11@
+acc|1|accounts!16&19@
+add|1|addUser!15&98@
+age|1|age!21&75@
+bal|1|balance!22&19@
+con|2|con!23&99@config!24&35@
+cre|2|credit_limit!25&19@credit!16&18@
+cur|1|cur!23&99@
+deb|2|debit!16&18@debit!17&18@
+fil|1|filename!24&35@
+get|2|get_balance!16&18@get_val!18&34@
+nam|1|name!21&75@
+que|1|query!15&98@
+sav|1|save!18&34@
+set|2|set_val!18&34@setup!15&98@
+sho|1|showUsers!15&98@
+tal|1|talk!14&74@
+wal|1|walk!14&74@
+x|1|x!13&10@
+-- END TREE

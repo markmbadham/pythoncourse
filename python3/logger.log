@@ -1,0 +1,22 @@
+DEBUG:root:debug message
+WARNING:root:warning message
+ERROR:root:error message
+2014-09-10 09:47:02,685:DEBUG:root:debug message
+2014-09-10 09:47:02,686:WARNING:root:warning message
+2014-09-10 09:47:02,686:ERROR:root:error message
+2014-09-10 09:51:39,925:     DEBUG:debug message
+2014-09-10 09:51:39,925:   WARNING:warning message
+2014-09-10 09:51:39,925:     ERROR:error message
+2014-09-10 10:03:21,177:     DEBUG:debug message
+2014-09-10 10:03:21,177:   WARNING:warning message
+2014-09-10 10:03:21,177:     ERROR:Traceback (most recent call last):
+  File "./logger1.py", line 10, in <module>
+    1/0
+ZeroDivisionError: division by zero
+
+2014-09-10 10:08:00,233:     DEBUG:debug message
+2014-09-10 10:08:00,233:   WARNING:warning message
+2014-09-10 10:08:00,234:     ERROR:Traceback (most recent call last):-  File "./logger1.py", line 10, in <module>-    1/0-ZeroDivisionError: division by zero-
+2016-11-16 13:40:40,893:     DEBUG:something..
+2016-11-16 13:41:07,140:     ERROR:error
+2016-11-16 13:52:58,123:     DEBUG:a: 10

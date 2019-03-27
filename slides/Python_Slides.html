@@ -1,0 +1,606 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title></title>
+  <meta name="generator" content="LibreOffice 5.1.4.2 (Linux)"/>
+  <meta name="created" content="2016-03-13T15:52:51.385512802"/>
+  <meta name="changedby" content="Mark Badham"/>
+  <meta name="changed" content="2016-09-21T15:52:32.260562985"/>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#000000" vlink="#000000" alink="#000000">
+<h1><font color="#FFFFFF">Programming  Python</font></h1>
+<h2>Mark Badham</h2>
+<h2>Python Software: </h2>
+<h2><a href="smb://vault/software/python">\\vault\software\python</a></h2>
+<h2>Start 09:00</h2>
+<h2>Tea 10:30-45</h2>
+<h2>Lunch 12:00-45</h2>
+<h2>Tea 14:30-45</h2>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">What is Python</font></h1>
+<ul>
+<li>Standard vs Implementation</li>
+<li>Compiled vs Interpreted</li>
+<li>Open Source </li>
+<li>BDFL: Guido van Rossam</li>
+<li>Version 3.x vs 2.x</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Python Philosophy</font></h1>
+<ul>
+<li>Explicit rather than implicit</li>
+<li>One obvious way to do it</li>
+<li>No surprises (consistency)</li>
+<li>Batteries included</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Using the Python Shell</font></h1>
+<h2>$ python</h2>
+<h2>Python 2.7.9 (default, Apr  2 2015, 15:33:21) </h2>
+<h2>[GCC 4.9.2] on linux2</h2>
+<h2>Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.</h2>
+<h2>&gt;&gt;&gt; </h2>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Python Syntax</font></h1>
+<ul>
+<li>Case Sensitive</li>
+<li>One statement per line</li>
+<li>Statement can be an expression</li>
+<li> Comment '#'</li>
+<li>No multi line comment use Docstring</li>
+<ul>
+<li>'''       …    '''</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Extending a line</font></h1>
+<ul>
+<li> Backslash \</li>
+<li>Open ( [ {</li>
+<li>Or triple quoted string '''</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Writing Programs</font></h1>
+<ul>
+<li>Edit hello.py</li>
+<ul>
+<li>#!/usr/bin/env python</li>
+<li>print('hello')</li>
+<li>input()</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Executing Programs	</font></h1>
+<ul>
+<li>From windows explorer:</li>
+<ul>
+<li>Double click on file</li>
+</ul>
+<li>From idle: </li>
+<ul>
+<li>press f5</li>
+<li>Or choose run from the menu</li>
+</ul>
+<li>From CMD:</li>
+<ul>
+<li>Type: hello.py</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Using Variables</font></h1>
+<ul>
+<li>Naming rules</li>
+<ul>
+<li>^[A-Za-z_][A-Za-z0-9_]*$</li>
+</ul>
+<li>Style Guide</li>
+<ul>
+<li>Variables lowercase</li>
+<li>multi_word_vars</li>
+<li>CONSTANTS</li>
+<li>ClassNames</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Builtin Types</font></h1>
+<ul>
+<li>Numeric</li>
+<ul>
+<li>int, long (py2), float, complex</li>
+</ul>
+<li>Sequences</li>
+<ul>
+<li>str, list, tuple</li>
+</ul>
+<li>Other Iterables</li>
+<ul>
+<li>set, frozenset, dictionary, file</li>
+</ul>
+<li>Structures</li>
+<ul>
+<li>Functions, Classes, Modules</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Integers</font></h1>
+<ul>
+<ul>
+<li>i =10</li>
+<li>type(i)</li>
+<li>i = 0xFE</li>
+<li>type(i)</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">floats</font></h1>
+<ul>
+<ul>
+<li>f = 2.0</li>
+<li>type(f)</li>
+<li>f = 3E2</li>
+<li>type(f)</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Complex</font></h1>
+<ul>
+<ul>
+<li>3.0+54j</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Sequences</font></h1>
+<ul>
+<li>Indexing</li>
+<ul>
+<li>Seq[0] … Seq[-1]</li>
+</ul>
+<li>Slicing</li>
+<ul>
+<li>Seq[start:end:step]</li>
+<li>Default start = 0</li>
+<li>Default end = -1</li>
+<li>Default step = 1</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Sequence Functions Methods and Operators</font></h1>
+<ul>
+<li>len(Seq)</li>
+<li>Seq.index()</li>
+<li>Seq.count()</li>
+<li>val in Seq</li>
+<li>+ *</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Strings</font></h1>
+<ul>
+<li>Are Sequences</li>
+<li>Delimited by quotes</li>
+<ul>
+<li>Double quotes “”</li>
+<li>Single quotes ''</li>
+<li>Or triple quoted ''' ''' or  '''''' ''''''</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">String Formatting</font></h1>
+<ul>
+<li>change = 5</li>
+<li>print(“the change is %s cents” % change)</li>
+<ul>
+<li>the change is 5 cents</li>
+</ul>
+<li>print(“the change is %d cents” % change)</li>
+<ul>
+<li>the change is 5 cents</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Format width</font></h1>
+<ul>
+<li>print(“the change is %05s cents” % change)</li>
+<ul>
+<li>the change is     5 cents</li>
+</ul>
+<li>print(“the change is %05d cents” % change)</li>
+<ul>
+<li>the change is 00005 cents</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Format float</font></h1>
+<ul>
+<li>change = 5 + 2/3.0</li>
+<ul>
+<li>5.6666666666666666</li>
+</ul>
+<li>print(“the change is %06.2f cents” % change)</li>
+<ul>
+<li>the change is 005.66 cents</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">String Methods</font></h1>
+<ul>
+<li>Index / find</li>
+<ul>
+<li>index(), find(), rindex(), rfind(), count()</li>
+</ul>
+<li>Strip</li>
+<ul>
+<li>strip(), rstrip(),strip()</li>
+</ul>
+<li>Case</li>
+<ul>
+<li>upper(), lower(), capitalize()</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">String Exercise</font></h1>
+<ul>
+<li>Given</li>
+<ul>
+<li>email = <a href="mailto:fred@acme.com">fred@acme.com</a> or similar</li>
+</ul>
+<li>Code</li>
+<ul>
+<li>Use index() and slicing to display <i>fred</i></li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">String Answer</font></h1>
+<ul>
+<li><font color="#6666FF">email</font> = '<a href="mailto:fred@acme.com">fred@acme.com</a>'</li>
+<li><font color="#6666FF">atindex</font> = <font color="#6666FF">email</font>.<font color="#66CC00">index</font>('<font color="#FF3333">@</font><font color="#000000">')</font></li>
+<li>print(<font color="#6666FF">email[</font>:<font color="#6666FF">atindex]</font>)</li>
+<ul>
+<li>fred</li>
+</ul>
+<li>print(<font color="#6666FF">email[</font>:<font color="#6666FF">email</font>.<font color="#66CC00">index</font>('<font color="#FF3333">@</font><font color="#000000">')]</font>)</li>
+<ul>
+<li>fred</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Lists</font></h1>
+<ul>
+<li>Delimiter []</li>
+<ul>
+<li>l1 = [1,2,3,4]</li>
+<li><b>print</b>(l1[2])</li>
+<li>3</li>
+</ul>
+<li>Lists are mutable</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">List Methods</font></h1>
+<ul>
+<li>Growing lists</li>
+<ul>
+<li>append(), extend(), insert()</li>
+</ul>
+<li>Shrinking lists</li>
+<ul>
+<li>pop(), remove(), clear()</li>
+</ul>
+<li>Sorting lists</li>
+<ul>
+<li>sort(), reverse()</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Dictionaries</font></h1>
+<ul>
+<li>Delimiter {}</li>
+<ul>
+<li>d1 = {'<font color="#800000">name</font>':'<font color="#800000">fred</font>', '<font color="#800000">surname</font>':'<font color="#800000">basset</font>'}</li>
+</ul>
+<li>print d['<font color="#800000">name</font>']</li>
+<ul>
+<li>fred</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Dictionary Methods operations</font></h1>
+<ul>
+<li>Overwrite or add new items</li>
+<ul>
+<li>dict1[key] = value</li>
+</ul>
+<li>Get item</li>
+<ul>
+<li>dict1[key] or dict1.get('key'[,default val])</li>
+</ul>
+<li>Delete item</li>
+<ul>
+<li>del(dict1[key])</li>
+</ul>
+<li>List keys values</li>
+<ul>
+<li>keys(), values(), items()</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Flow Control</font></h1>
+<ul>
+<li>IF</li>
+<ul>
+<li>if condition:</li>
+<ul>
+<li>statements</li>
+</ul>
+<li>elif condition:</li>
+<ul>
+<li>statements</li>
+</ul>
+<li>else:</li>
+<ul>
+<li>statements</li>
+</ul>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Flow Control	</font></h1>
+<ul>
+<li>While</li>
+<ul>
+<li>while condition:</li>
+<ul>
+<li>statements</li>
+<li>if … break</li>
+<li>if … continue</li>
+</ul>
+<li>else</li>
+<ul>
+<li>statements</li>
+</ul>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Flow Control</font></h1>
+<ul>
+<li>For</li>
+<ul>
+<li>for var in <i>iterable</i>:</li>
+<ul>
+<li>statements</li>
+<li>if … break</li>
+<li>if … continue</li>
+</ul>
+<li>else:</li>
+<ul>
+<li>statements</li>
+</ul>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Functions</font></h1>
+<ul>
+<li>Definition</li>
+<ul>
+<li>def function_name():</li>
+<ul>
+<li>statements</li>
+</ul>
+</ul>
+<li>Calling Function</li>
+<ul>
+<li><i>function_name()</i></li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Function Return</font></h1>
+<ul>
+<li>Functions are not required to <font color="#800000">return</font></li>
+<li><font color="#800000">Return expression preferred to side affects</font></li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Parameters</font></h1>
+<ul>
+<li>def fn(arg1, arg2):</li>
+<ul>
+<li>statements</li>
+</ul>
+<li>fn(1,2)</li>
+<ul>
+<li>calls function fn with arg1=1 and arg2=2</li>
+</ul>
+<li>fn(arg2=1,arg1=2)</li>
+<ul>
+<li>calls function fn with arg2=1 and arg1=2</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Optional Arguments</font></h1>
+<ul>
+<li>def fn(arg1, arg2=0):</li>
+<ul>
+<li>statements</li>
+<li>Default values make an argument optional</li>
+<li>All mandatory arguments are defined before any optional arguments.</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Variabe argument lists</font></h1>
+<ul>
+<li>def fn(*args):</li>
+<ul>
+<li>print(args)</li>
+</ul>
+<li>fn(1,2,3<b>)</b></li>
+<ul>
+<li> (1,2,3)</li>
+<li><b>args</b> becomes a tuple</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Key word args</font></h1>
+<ul>
+<li>def fn(**kwargs):</li>
+<ul>
+<li>print(kwargs)</li>
+</ul>
+<li>fn(a='A',b='B')</li>
+<ul>
+<li>{a:'A',b:'B'}</li>
+<li><b>kwargs </b>becomes a dictionary</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">lambda</font></h1>
+<ul>
+<li>Inline anonymous function</li>
+<li>lambda <b><font color="#800000">arg1[,...]</b></font> : <font color="#333333">expression</font></li>
+<ul>
+<li><font color="#333333">arg1[,...] function argument list</font></li>
+<li><font color="#333333">expression is returned by the function</font></li>
+<li><font color="#333333"></font></li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Simple lambda functions</font></h1>
+<ul>
+<li>Square</li>
+<ul>
+<li>lambda x: x**2</li>
+</ul>
+<li>Even</li>
+<ul>
+<li>lambda x: x%2==0</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Map</font></h1>
+<ul>
+<li>map( lambda x : x**2, range(5))</li>
+<ul>
+<li>0 1 4 9 16</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Filter</font></h1>
+<ul>
+<li>filter( lambda x : x%2==0, range(5))</li>
+<ul>
+<li>0 2 4</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">List Comprehension</font></h1>
+<ul>
+<li>[ x**2 for x in range(5)]</li>
+<ul>
+<li>[0, 2, 4, 9, 16]</li>
+<li>Actual list created</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Generator expression</font></h1>
+<ul>
+<li>for  i in (x**2 for x in range(5))</li>
+<ul>
+<li>print(i, end=None)</li>
+<li>04816</li>
+<li>Not an actual list</li>
+<li>Iterable object i.e. has __next__()</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Generator Functions</font></h1>
+<ul>
+<li>yield </li>
+<ul>
+<li>Keyword always present in generator function</li>
+<li>Function retuns a generator object</li>
+<li>__next__()</li>
+<li>Excutes up until <b>yield</b></li>
+<li>“break point” where execution temporarily stops and returns a value</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Updown</font></h1>
+<h2>def updown(<font color="#000000">n</font>)<b>:</b></h2>
+<h2>    for <font color="#000000">i</font> in range(<font color="#000000">n</font>): yield <font color="#000000">i</font></h2>
+<h2>    for <font color="#000000">i</font> in range(<font color="#000000">n,0,-1</font>): yield <font color="#000000">i</font></h2>
+<h2>for <font color="#000000">x</font> in updown(<font color="#000000">5</font>) : print(<font color="#000000">x, end=''</font>)</h2>
+<h2><font color="#000000">0123454321</font></h2>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Modules</font></h1>
+<ul>
+<li>Normal python file</li>
+<li>Or pre-compiled C object, .dll  .so</li>
+<li>Found in sys.path </li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">import</font></h1>
+<ul>
+<li>import module</li>
+<ul>
+<li>Creates a namespace</li>
+<li>Named after module</li>
+<li>Same as file name sans extension</li>
+<li>Hence filename must be valid python identifier</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Import invocation</font></h1>
+<ul>
+<li>import  mod</li>
+<li>import mod1, mod2</li>
+<li>import mod1 as alias</li>
+<li>from  mod import attribute[, ...]</li>
+<li>from mod import *</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Class</font></h1>
+<ul>
+<li>Allows custom objects</li>
+<li>Contains</li>
+<ul>
+<li>Class variables</li>
+<li>Methods</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Class Variable</font></h1>
+<ul>
+<li>Normal variable</li>
+<li>Class acts as a namespace</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Methods	</font></h1>
+<ul>
+<li>Must accept <i><font color="#800000">self</i></font></li>
+<li>Self represents the <i><font color="#800000">instance object</i></font> the method was called from</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Instance Vars</font></h1>
+<ul>
+<li>Variables contained in the <i><font color="#800000">instance</i></font> </li>
+<li>c1 = C()</li>
+<li>c1.var</li>
+<li>c1.__dict__[‘var’]</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Constructor</font></h1>
+<ul>
+<li>__init__()</li>
+<ul>
+<li>Intercepts the ClassName() call.</li>
+<li>Often used to initialise instance variables</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Inheritance</font></h1>
+<ul>
+<li>Class definition</li>
+<ul>
+<li>class ClassName(BaseClass[,...])</li>
+<li>Attribute resolution delegation</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Exceptions</font></h1>
+<ul>
+<li>try: block</li>
+<li>except [<font color="#800000">ExceptionClass</font>]: block</li>
+<li>else: block</li>
+<li>finally: block</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Raising Exceptions</font></h1>
+<ul>
+<li>raise  ExceptionClass, message (py2)</li>
+<li>raise  ExceptionClass(message) (py3)</li>
+<li>assert boolean_expression, message</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">IO</font></h1>
+<ul>
+<li>The os module</li>
+<ul>
+<li>Import os</li>
+<li>os.access, oss.listdir</li>
+<li>os.path.isdir, isfile, os.path.abspath</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Opening Files</font></h1>
+<ul>
+<li>Open</li>
+<ul>
+<li>open(‘filename’, ‘mode’)</li>
+<li>Returns file object</li>
+</ul>
+<li>Modes</li>
+<ul>
+<li>‘r’ read only (default)</li>
+<li>‘w’ write only</li>
+<li>‘+’ read and write (not recommended)</li>
+</ul>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Reading Files</font></h1>
+<ul>
+<li>for line in f: ...</li>
+<li>f.readline([<font color="#800000">length</font>]) -&gt; str line</li>
+<li>f.readlines([<font color="#800000">length</font>]) -&gt; list lines</li>
+<li>f.read([<font color="#800000">length</font>]) -&gt; str content</li>
+</ul>
+<h1 style="page-break-before:always; "><font color="#FFFFFF">Writing Files</font></h1>
+<ul>
+<li>f = open(<font color="#800000">filename</font> [, ‘<font color="#800000">w</font>’|’<font color="#800000">a</font>’])</li>
+<li>f.write(<font color="#800000">str</font>)</li>
+<li>f.writelines(<font color="#800000">list</font>)</li>
+</ul>
+<h1 style="page-break-before:always; "></h1>
+</body>
+</html>

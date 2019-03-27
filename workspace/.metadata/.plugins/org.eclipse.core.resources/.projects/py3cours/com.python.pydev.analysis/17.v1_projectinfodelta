@@ -1,0 +1,12 @@
+INSTUPpeople
+/home/mark/Documents/course/python/workspace/py3cours/people.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&2|7|2|1&&2|8|2|1&&3|9|2|0
+Person.__init__=5
+name=4
+talk=7
+fred=9
+__init__=3
+Person=1
+people=2
+age=6
+walk=8

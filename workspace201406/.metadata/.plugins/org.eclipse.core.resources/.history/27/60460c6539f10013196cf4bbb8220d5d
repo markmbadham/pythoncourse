@@ -1,0 +1,14 @@
+'''
+Created on 11 Jun 2014
+
+@author: mark
+'''
+import os
+
+def lister(path):
+    if os.path.isdir(path):
+        for file in os.listdir(path):
+            print file
+
+if __name__ == "__main__":
+    os.listdir('.')

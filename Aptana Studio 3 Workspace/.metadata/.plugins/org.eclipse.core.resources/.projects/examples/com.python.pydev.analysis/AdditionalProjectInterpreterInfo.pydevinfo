@@ -1,0 +1,29 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/mark/Documents/course/python/Aptana Studio 3 Workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/examples/com.python.pydev.analysis/v2_indexcache
+a|1503516574000000000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/examples/a.py
+functions|1503589924000000000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/examples/functions.py
+loop|1503589924000000000|/home/mark/Documents/course/python/Aptana Studio 3 Workspace/examples/loop.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=functions
+2=loop
+-- END DICTIONARY
+-- START TREE 1
+11
+dou|1|double!10@
+fac|1|fact!10@
+gre|1|greeter!10@
+int|1|interest!10@
+mak|1|make_double!10@
+n|1|n!19@
+row|1|rows!19@
+squ|1|square!10@
+sum|1|sum!10@
+tes|1|test_args!10@
+x|1|x!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

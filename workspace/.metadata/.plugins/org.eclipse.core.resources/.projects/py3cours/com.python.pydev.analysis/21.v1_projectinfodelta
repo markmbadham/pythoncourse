@@ -1,0 +1,15 @@
+INSTUPreadconfig
+/home/mark/Documents/course/python/workspace/py3cours/readconfig.py
+INFOS:&&3|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&1|6|2|0&&2|7|2|6&&3|8|2|9&&3|10|2|9&&2|3|2|6&&2|11|2|6&&2|12|2|6
+Config.__init__=9
+read_dict=4
+Config=6
+save=12
+readconfig=2
+set_val=11
+get_val=3
+filename=8
+write_dict=5
+__init__=7
+FILENAME=1
+config=10

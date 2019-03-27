@@ -1,0 +1,16 @@
+'''
+Created on 08 Nov 2016
+
+@author: mark
+'''
+s = 'name,surname,age'
+l = s.split(',')
+
+email = 'fred.bloggs@acme.co.za'
+user,domain =  email.split('@')
+print 'user', user
+print 'domain', domain
+t= (1,2,3)
+print type(t)
+print list(t)
+print tuple(l)

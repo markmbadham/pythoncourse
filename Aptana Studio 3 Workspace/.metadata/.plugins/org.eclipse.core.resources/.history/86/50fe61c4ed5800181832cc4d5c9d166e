@@ -1,0 +1,25 @@
+'''
+Created on 16 May 2018
+
+@author: mark
+'''
+import os
+
+def readfile(dirname):
+    print dirname
+    if os.path.isdir(dirname):
+        for filename in os.listdir(dirname):
+             readfile(dirname+'/'+filename)
+
+def readfile2(dirname):
+    print dirname
+    if os.path.isdir(dirname):
+        oldir = os.path.abspath('.')
+        os.chdir(dirname)
+        for filename in os.listdir('.'):
+             readfile(dirname+'/'+filename)
+        os.chdir(oldir)
+        
+
+if __name__ == '__main__':
+    readfile2('/home/mark/Documents/course/python')

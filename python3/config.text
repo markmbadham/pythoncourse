@@ -1,0 +1,5 @@
+dbname = pydb1
+port = 10000
+user = pyuser
+host = localhost
+val = multi word

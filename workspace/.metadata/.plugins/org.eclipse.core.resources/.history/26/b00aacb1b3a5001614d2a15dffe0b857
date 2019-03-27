@@ -1,0 +1,15 @@
+'''
+Created on 08 Nov 2016
+
+@author: mark
+'''
+l = []
+l.append(1)
+l.append(2)
+l.append(3)
+print l
+l.insert(0, 'A')
+print l
+print len(l)
+print l[-1]
+l[2] = 'B'

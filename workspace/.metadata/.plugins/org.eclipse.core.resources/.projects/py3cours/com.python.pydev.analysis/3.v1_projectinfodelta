@@ -1,0 +1,16 @@
+INSTUPaccounting
+/home/mark/Documents/course/python/workspace/py3cours/accounting.py
+INFOS:&&1|1|2|0&&3|3|2|1&&2|4|2|1&&3|5|2|6&&2|7|2|1&&2|8|2|1&&2|9|2|1&&1|10|2|0&&2|4|2|10&&3|11|2|12&&2|7|2|10&&3|13|2|0&&3|8|2|0
+Account=1
+CreditAccount=10
+get_balance=9
+CreditAccount.__init__=12
+accounting=2
+current=13
+balance=5
+credit_limit=11
+accounts=3
+__init__=4
+debit=7
+credit=8
+Account.__init__=6

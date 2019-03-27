@@ -1,0 +1,27 @@
+'''
+Created on 23 Sep 2016
+
+@author: mark
+'''
+import Tkinter as tk
+
+class Editor(tk.Tk):
+    '''
+    classdocs
+    '''
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+        tk.Tk.__init(self)
+        self.filename_entry = tk.Entry()
+        self.filename_entry.grid(row=1, column=1)
+        self.open_button = tk.Button(text='open', command = self.open)
+        self.open_button.grid(row=1, column=2)
+        self.close_button = tk.Button(text='close', command = self.close)
+        self.close_button.grid(row=1, column=2)
+        self.mainloop(0)
+    
+if __name__ == '__main__':
+    Editor()

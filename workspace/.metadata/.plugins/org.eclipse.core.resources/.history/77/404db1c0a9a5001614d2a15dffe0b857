@@ -1,0 +1,8 @@
+'''
+Created on 08 Nov 2016
+
+@author: mark
+'''
+s = 'abcd'
+for x in s: 
+    print x

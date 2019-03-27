@@ -1,0 +1,10 @@
+Script started on Fri 22 Aug 2014 13:21:08 SAST
+]0;mark@gamma: ~/course/pythonmark@gamma:~/course/python$ pythonkillall thunderbird [4Pfirefox[C[2Pssh root@vaultkillall firefox [4@thunderbird[Cpython[K[Kpython
+Python 2.7.6 (default, Mar 22 2014, 22:59:56) 
+[GCC 4.8.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> orub=[K[K[K[K[Kl = [1,2,3,4[[K]
+>>> 
+]0;mark@gamma: ~/course/pythonmark@gamma:~/course/python$ exit
+
+Script done on Fri 22 Aug 2014 13:21:27 SAST

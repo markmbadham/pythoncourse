@@ -1,0 +1,28 @@
+'''
+Created on 22 Sep 2016
+
+@author: mark
+'''
+import Tkinter as tk
+win = tk.Tk()
+'''
+for title in ('left','right','top','bottom'):
+    button = tk.Button(text=title)
+    button.pack(side=title)
+'''
+rows = 0
+cols = 0
+for title in ('name','surname', 'age'):
+    rows +=1
+    label = tk.Label(text=title)
+    label.grid(row=rows, column = 1)
+    entry = tk.Entry()
+    entry.grid(row=rows, column = 2)
+text = tk.Text()
+text.grid(row=rows+1, column = 1, columnspan=2)
+def button_cmd():
+    print 'I was pressed %s' % entry.get()
+    
+press = tk.Button(text = 'Print', command=button_cmd)
+press.grid(row=rows+2,column=1)
+win.mainloop(0)
